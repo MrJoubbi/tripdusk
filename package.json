@@ -4,11 +4,15 @@
   "private": true,
   "description": "TripDusk — travel journal for sunset chasers",
   "scripts": {
-    "build": "eleventy",
-    "start": "eleventy --serve --port=4178",
-    "dev": "eleventy --serve --port=4178"
+    "build": "eleventy && node -e \"require('fs').cpSync('_site', 'dist', {recursive: true})\"",
+    "start": "node server.js",
+    "dev": "eleventy --serve --port=3000",
+    "lint": "node -c server.js .eleventy.js"
   },
   "devDependencies": {
     "@11ty/eleventy": "^3.0.0"
+  },
+  "dependencies": {
+    "markdown-it": "^15.0.2"
   }
 }

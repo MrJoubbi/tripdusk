@@ -1,0 +1,10 @@
+{
+  "name": "TripDusk",
+  "description": "A travel journal for sunset chasers — romantic escapes, the digital-nomad life, and golden-hour photography.",
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,6 +1,12 @@
 const markdownIt = require("markdown-it");
 
 module.exports = function (eleventyConfig) {
+  // Server options for development
+  eleventyConfig.setServerOptions({
+    port: 3000,
+    showAllHosts: false
+  });
+
   // Allow raw HTML inside Markdown (tables, callouts, affiliate links with rel)
   eleventyConfig.setLibrary(
     "md",
