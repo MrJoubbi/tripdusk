@@ -9,7 +9,18 @@ Founded in 2019 (Lisbon, Portugal). Contact: contact@tripdusk.com
 - [Romantic Escapes](https://tripdusk.com/romantic-escapes.html): Honeymoon destinations, couples' weekend getaways, sunset stays & resorts, and romantic experiences like sunset cruises and dinners.
 - [Nomad Life](https://tripdusk.com/nomad-life.html): Practical long-term travel — the best eSIMs & connectivity, travel insurance, the best cities for digital nomads, and remote-work stays & gear.
 - [Golden Hour](https://tripdusk.com/golden-hour.html): Sunset photography tips, editing presets, camera & phone gear, and the best sunset spots in the world.
+- [Sunset Finder Tool](https://tripdusk.com/sunset-finder.html): Interactive tool calculating precise sunset times, golden hour windows, blue hour duration, compass bearings to face, and sky quality ratings for any city worldwide.
 - [Destinations](https://tripdusk.com/destinations.html): Guides organised by region — Europe, Asia, Caribbean, USA, Africa, South America, Oceania, and the Middle East — plus the Dusk Index, our ranking of the world's best sunsets.
+
+## Featured Pillar Guides
+
+- [Best eSIMs for Long-Term Travel](https://tripdusk.com/best-esims-long-term-travel.html): Data plans, regional vs local SIM comparison, and speed tests.
+- [Best Travel Insurance for Digital Nomads](https://tripdusk.com/best-travel-insurance-digital-nomads.html): SafetyWing vs World Nomads comparison, medical and tech coverage.
+- [Best Cities for Digital Nomads](https://tripdusk.com/best-cities-digital-nomads.html): Cost of living, Wi-Fi reliability, visa friendliness, and community ratings.
+- [How to Photograph the Perfect Sunset](https://tripdusk.com/how-to-photograph-sunset.html): Camera shutter speeds, apertures, ND filters, and phone camera setup.
+- [Golden Hour vs Blue Hour](https://tripdusk.com/golden-hour-vs-blue-hour.html): Differences in color temperature, lighting contrast, and timing rules.
+- [Best Sunset Spots in the World](https://tripdusk.com/best-sunset-spots-world.html): Top vantage points across Santorini, Bali, Maui, Cape Town, and Venice.
+
 
 ## About
 

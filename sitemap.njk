@@ -3,19 +3,105 @@ permalink: /sitemap.xml
 eleventyExcludeFromCollections: true
 ---
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://tripdusk.com/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
-  <url><loc>https://tripdusk.com/romantic-escapes.html</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://tripdusk.com/nomad-life.html</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://tripdusk.com/golden-hour.html</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://tripdusk.com/sunset-finder.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://tripdusk.com/destinations.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://tripdusk.com/about.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://tripdusk.com/contact.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://tripdusk.com/</loc>
+    <lastmod>2026-09-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://tripdusk.com/assets/img/og-image.svg</image:loc>
+      <image:title>TripDusk — Travel for the Golden Hour</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tripdusk.com/sunset-finder.html</loc>
+    <lastmod>2026-09-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://tripdusk.com/assets/img/og-image.svg</image:loc>
+      <image:title>TripDusk Sunset Finder — Best Sunset Time, Direction &amp; Quality for Any City</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tripdusk.com/romantic-escapes.html</loc>
+    <lastmod>2026-09-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://tripdusk.com/assets/img/og-image.svg</image:loc>
+      <image:title>Romantic Escapes — TripDusk Honeymoon &amp; Sunset Getaways</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tripdusk.com/nomad-life.html</loc>
+    <lastmod>2026-09-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://tripdusk.com/assets/img/og-image.svg</image:loc>
+      <image:title>Nomad Life — TripDusk Long-Term Travel &amp; Remote Work Guides</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tripdusk.com/golden-hour.html</loc>
+    <lastmod>2026-09-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://tripdusk.com/assets/img/og-image.svg</image:loc>
+      <image:title>Golden Hour — Sunset Photography &amp; Spot Guides</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tripdusk.com/destinations.html</loc>
+    <lastmod>2026-09-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://tripdusk.com/assets/img/og-image.svg</image:loc>
+      <image:title>Destinations by Region — TripDusk Travel Guides</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tripdusk.com/about.html</loc>
+    <lastmod>2026-09-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tripdusk.com/contact.html</loc>
+    <lastmod>2026-09-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
   {%- for post in collections.post %}
-  <url><loc>https://tripdusk.com{{ post.url }}</loc><lastmod>{{ post.date | isoDate }}</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url>
+    <loc>https://tripdusk.com{{ post.url }}</loc>
+    <lastmod>{{ post.date | isoDate }}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://tripdusk.com/assets/img/og-image.svg</image:loc>
+      <image:title>{{ post.data.title | escape }}</image:title>
+    </image:image>
+  </url>
   {%- endfor %}
   {%- for p in wpposts %}
-  <url><loc>https://tripdusk.com/{{ p.slug }}/</loc><lastmod>{{ p.modified }}</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url>
+    <loc>https://tripdusk.com/{{ p.slug }}/</loc>
+    <lastmod>{{ p.modified }}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    {%- if p.image %}
+    <image:image>
+      <image:loc>{{ p.image | escape }}</image:loc>
+      <image:title>{{ p.title | escape }}</image:title>
+    </image:image>
+    {%- endif %}
+  </url>
   {%- endfor %}
 </urlset>
+
