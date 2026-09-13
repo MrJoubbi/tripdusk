@@ -1,0 +1,48 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="TripDusk — Travel for the golden hour">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0.6" y2="1">
+      <stop offset="0" stop-color="#2a1a55"/>
+      <stop offset="0.35" stop-color="#6d2f7a"/>
+      <stop offset="0.62" stop-color="#d4557f"/>
+      <stop offset="0.82" stop-color="#ff7a59"/>
+      <stop offset="1" stop-color="#ffc15e"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#fff3d6"/>
+      <stop offset="0.4" stop-color="#ffd089"/>
+      <stop offset="0.7" stop-color="#ffab6b" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#ffab6b" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="mark-sky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6d2f7a"/><stop offset="0.55" stop-color="#d4557f"/><stop offset="1" stop-color="#ff7a59"/>
+    </linearGradient>
+    <linearGradient id="mark-sun" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffe6b0"/><stop offset="1" stop-color="#ffba5a"/>
+    </linearGradient>
+    <clipPath id="mclip"><circle cx="80" cy="80" r="34"/></clipPath>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#sky)"/>
+  <circle cx="600" cy="600" r="360" fill="url(#sun)"/>
+
+  <!-- layered hills -->
+  <path d="M0 470 L200 410 L420 455 L640 400 L860 450 L1080 405 L1200 435 V630 H0 Z" fill="#150b24" opacity="0.5"/>
+  <path d="M0 520 L260 470 L520 512 L760 468 L1000 512 L1200 480 V630 H0 Z" fill="#150b24" opacity="0.78"/>
+  <path d="M0 630 V560 L300 520 L640 566 L980 522 L1200 560 V630 Z" fill="#120920"/>
+
+  <!-- logo mark -->
+  <g transform="translate(300,60)">
+    <circle cx="80" cy="80" r="34" fill="url(#mark-sky)"/>
+    <g clip-path="url(#mclip)">
+      <circle cx="80" cy="88" r="16" fill="url(#mark-sun)"/>
+      <g stroke="#fff2d6" stroke-width="3" stroke-linecap="round" opacity="0.95">
+        <line x1="48" y1="82" x2="62" y2="82"/><line x1="98" y1="82" x2="112" y2="82"/>
+      </g>
+    </g>
+    <text x="132" y="98" font-family="Georgia, 'Times New Roman', serif" font-size="62" font-weight="600" fill="#fbf2e7">TripDusk</text>
+  </g>
+
+  <!-- headline -->
+  <text x="600" y="300" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="76" font-weight="600" fill="#fbf2e7">Travel for the golden hour</text>
+  <text x="600" y="356" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="30" fill="#fbf2e7" opacity="0.9">Romantic escapes · Nomad life · Sunset photography</text>
+</svg>

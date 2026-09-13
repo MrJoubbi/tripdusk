@@ -1,0 +1,12 @@
+{
+  "name": "TripDusk",
+  "short_name": "TripDusk",
+  "description": "A travel journal for sunset chasers — romantic escapes, the digital-nomad life, and golden-hour photography.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#190f2b",
+  "theme_color": "#190f2b",
+  "icons": [
+    { "src": "/assets/img/logo.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}

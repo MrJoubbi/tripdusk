@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TripDusk — Travel for the Golden Hour</title>
+  <meta name="description" content="TripDusk is a travel journal for sunset chasers — romantic escapes, the digital-nomad life, and golden-hour photography, all built around the most beautiful hour of the day." />
+  <link rel="canonical" href="https://tripdusk.com/" />
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+  <meta name="theme-color" content="#190f2b" />
+  <meta name="author" content="TripDusk" />
+
+  <!-- Icons & manifest -->
+  <link rel="icon" type="image/svg+xml" href="assets/img/logo.svg" />
+  <link rel="apple-touch-icon" href="assets/img/logo.svg" />
+  <link rel="manifest" href="site.webmanifest" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="TripDusk" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:title" content="TripDusk — Travel for the Golden Hour" />
+  <meta property="og:description" content="A travel journal for sunset chasers — romantic escapes, the digital-nomad life, and golden-hour photography." />
+  <meta property="og:url" content="https://tripdusk.com/" />
+  <meta property="og:image" content="https://tripdusk.com/assets/img/og-image.svg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="TripDusk — Travel for the golden hour" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="TripDusk — Travel for the Golden Hour" />
+  <meta name="twitter:description" content="A travel journal for sunset chasers — romantic escapes, the digital-nomad life, and golden-hour photography." />
+  <meta name="twitter:image" content="https://tripdusk.com/assets/img/og-image.svg" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+
+  <!-- Structured data (SEO + GEO) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://tripdusk.com/#organization",
+        "name": "TripDusk",
+        "url": "https://tripdusk.com/",
+        "logo": { "@type": "ImageObject", "url": "https://tripdusk.com/assets/img/logo.svg" },
+        "image": "https://tripdusk.com/assets/img/og-image.svg",
+        "description": "An independent travel journal for sunset chasers — romantic escapes, the digital-nomad life, and golden-hour photography.",
+        "email": "contact@tripdusk.com",
+        "foundingDate": "2019",
+        "sameAs": [
+          "https://www.instagram.com/tripdusk",
+          "https://www.pinterest.com/tripdusk",
+          "https://www.youtube.com/@tripdusk",
+          "https://www.facebook.com/tripdusk"
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://tripdusk.com/#website",
+        "url": "https://tripdusk.com/",
+        "name": "TripDusk",
+        "description": "Travel for the golden hour.",
+        "publisher": { "@id": "https://tripdusk.com/#organization" },
+        "inLanguage": "en"
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://tripdusk.com/#webpage",
+        "url": "https://tripdusk.com/",
+        "name": "TripDusk — Travel for the Golden Hour",
+        "isPartOf": { "@id": "https://tripdusk.com/#website" },
+        "about": { "@id": "https://tripdusk.com/#organization" },
+        "primaryImageOfPage": "https://tripdusk.com/assets/img/og-image.svg",
+        "description": "A travel journal for sunset chasers — romantic escapes, the digital-nomad life, and golden-hour photography.",
+        "inLanguage": "en"
+      }
+    ]
+  }
+  </script>
+</head>
+<body data-page="home">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-sky"></div>
+    <div class="hero-sun"></div>
+    <div class="hero-haze"></div>
+    <svg class="hills" viewBox="0 0 1440 320" preserveAspectRatio="none" fill="#190f2b" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <path opacity="0.45" d="M0 210 L160 150 L320 195 L520 120 L720 185 L920 130 L1140 180 L1300 135 L1440 175 V320 H0 Z"/>
+      <path opacity="0.72" d="M0 255 L200 200 L420 245 L640 195 L860 245 L1080 200 L1280 240 L1440 215 V320 H0 Z"/>
+      <path d="M0 320 L0 280 L240 245 L480 285 L720 250 L960 288 L1200 252 L1440 282 V320 Z"/>
+    </svg>
+
+    <div class="wrap hero-content">
+      <span class="eyebrow reveal">Travel journal for sunset chasers</span>
+      <h1 class="h-xl reveal" data-d="1">Chase the light.<br /><span class="grad-text">Find your dusk.</span></h1>
+      <p class="lead reveal" data-d="2">Romantic escapes, the digital-nomad life, and golden-hour photography — three ways to travel toward the most beautiful hour of the day, wherever you are.</p>
+      <div class="hero-actions reveal" data-d="3">
+        <a href="romantic-escapes.html" class="btn btn-primary">Start exploring
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+        <a href="golden-hour.html" class="btn btn-ghost">Shoot the golden hour</a>
+      </div>
+      <div class="hero-stats reveal" data-d="4">
+        <div><div class="num grad-text">120+</div><div class="lbl">Destinations mapped</div></div>
+        <div><div class="num grad-text">48</div><div class="lbl">Countries visited</div></div>
+        <div><div class="num grad-text">25k</div><div class="lbl">Fellow travelers</div></div>
+      </div>
+    </div>
+
+    <a href="#lanes" class="scroll-cue"><span class="dot"></span>Scroll</a>
+  </section>
+
+  <!-- THREE LANES -->
+  <section class="section" id="lanes">
+    <div class="wrap">
+      <div class="center">
+        <span class="eyebrow reveal">Where to begin</span>
+        <h2 class="h-lg reveal" data-d="1">Three ways to chase the light</h2>
+        <p class="lead reveal" data-d="2" style="margin:14px auto 0">Whatever kind of traveler you are, there's a corner of TripDusk built for you.</p>
+      </div>
+      <div class="lanes">
+        <a class="lane reveal" href="romantic-escapes.html">
+          <div class="scene" style="--scene:linear-gradient(160deg,#3d1f4d,#d4557f 50%,#ff8a5e)"><svg class="ridge front" viewBox="0 0 400 200" preserveAspectRatio="none" fill="#120920" aria-hidden="true"><path d="M0 200V172L110 150 240 178 400 158V200Z"/></svg></div>
+          <div class="veil-strong"></div>
+          <div class="lane-body">
+            <div class="kicker">Romantic Escapes</div>
+            <h3>Travel for two</h3>
+            <p>Honeymoons, couples' getaways and sunset stays worth flying for.</p>
+            <div class="subs"><span>Honeymoons</span><span>Getaways</span><span>Sunset resorts</span></div>
+          </div>
+        </a>
+        <a class="lane reveal" data-d="1" href="nomad-life.html">
+          <div class="scene" style="--scene:linear-gradient(160deg,#142a55,#5a3a8a 50%,#ffb37a)"><svg class="ridge front" viewBox="0 0 400 200" preserveAspectRatio="none" fill="#120920" aria-hidden="true"><path d="M0 200V168L100 148 220 175 340 150 400 168V200Z"/></svg></div>
+          <div class="veil-strong"></div>
+          <div class="lane-body">
+            <div class="kicker">Nomad Life</div>
+            <h3>Work &amp; roam</h3>
+            <p>eSIMs, insurance, and the best cities to base yourself long-term.</p>
+            <div class="subs"><span>eSIM</span><span>Insurance</span><span>Nomad cities</span></div>
+          </div>
+        </a>
+        <a class="lane reveal" data-d="2" href="golden-hour.html">
+          <div class="scene" style="--scene:linear-gradient(160deg,#241a4a,#a8407a 52%,#ffce6b)"><svg class="ridge front" viewBox="0 0 400 200" preserveAspectRatio="none" fill="#120920" aria-hidden="true"><path d="M0 200V165L90 145 210 172 330 148 400 166V200Z"/></svg></div>
+          <div class="veil-strong"></div>
+          <div class="lane-body">
+            <div class="kicker">Golden Hour</div>
+            <h3>Shoot the light</h3>
+            <p>Sunset photography tips, our presets, and the best spots to catch dusk.</p>
+            <div class="subs"><span>Photo tips</span><span>Presets</span><span>Best spots</span></div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURED -->
+  <section class="section" id="featured" style="padding-top:0">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <span class="eyebrow reveal">Featured stories</span>
+          <h2 class="h-lg reveal" data-d="1">Where the golden hour leads us</h2>
+        </div>
+        <a href="destinations.html" class="link-arrow reveal" data-d="2">All destinations
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+      </div>
+
+      <div class="feat-grid">
+        <article class="card card-tall reveal">
+          <div class="scene" style="--scene:linear-gradient(160deg,#241a4a,#a8407a 52%,#ff8a5e)">
+            <svg class="ridge front" viewBox="0 0 400 200" preserveAspectRatio="none" fill="#150b24" aria-hidden="true"><path opacity=".5" d="M0 130 60 95 120 120 190 80 260 115 330 85 400 110V200H0Z"/><path opacity=".78" d="M0 160 70 125 150 150 220 120 300 150 370 125 400 145V200H0Z"/><path d="M0 200V175L80 150 160 175 240 150 320 178 400 160V200Z"/></svg>
+            <div class="veil"></div>
+          </div>
+          <div class="card-body">
+            <span class="tag">Romantic Escapes</span>
+            <h3>12 honeymoon islands with unreal sunsets</h3>
+            <p>From Santorini's caldera glow to the overwater villas of the Maldives — where to say "I do" as the sky turns gold.</p>
+            <div class="meta"><span>💛 Honeymoon</span><span>⏱ 9 min read</span></div>
+          </div>
+          <a class="card-link" href="romantic-escapes.html" aria-label="Read article"></a>
+        </article>
+
+        <div class="feat-col">
+          <article class="card reveal" data-d="1">
+            <div class="scene" style="--scene:linear-gradient(160deg,#142a55,#5a3a8a 50%,#ffb37a)">
+              <svg class="ridge front" viewBox="0 0 400 200" preserveAspectRatio="none" fill="#150b24" aria-hidden="true"><path opacity=".7" d="M0 150 80 120 160 145 240 115 320 148 400 125V200H0Z"/><path d="M0 200V178L100 155 220 180 340 158 400 172V200Z"/></svg>
+              <div class="veil"></div>
+            </div>
+            <div class="card-body">
+              <span class="tag">Nomad Life</span>
+              <h3>The best eSIMs for long-term travel</h3>
+              <div class="meta"><span>⏱ 7 min read</span></div>
+            </div>
+            <a class="card-link" href="nomad-life.html" aria-label="Read article"></a>
+          </article>
+
+          <article class="card reveal" data-d="2">
+            <div class="scene" style="--scene:linear-gradient(160deg,#3d1f4d,#d4557f 50%,#ffce6b)">
+              <svg class="ridge front" viewBox="0 0 400 200" preserveAspectRatio="none" fill="#150b24" aria-hidden="true"><path opacity=".7" d="M0 155 90 125 180 150 270 120 360 150 400 138V200H0Z"/><path d="M0 200V180L120 160 260 182 400 165V200Z"/></svg>
+            </div>
+            <div class="card-body">
+              <span class="tag">Golden Hour</span>
+              <h3>Master the dusk shot in 5 settings</h3>
+              <div class="meta"><span>⏱ 6 min read</span></div>
+            </div>
+            <a class="card-link" href="golden-hour.html" aria-label="Read article"></a>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DESTINATIONS PREVIEW -->
+  <section class="section" style="padding-top:0">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <span class="eyebrow reveal">Destinations</span>
+          <h2 class="h-lg reveal" data-d="1">Find your next horizon</h2>
+        </div>
+        <a href="destinations.html" class="link-arrow reveal" data-d="2">View all regions
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+      </div>
+
+      <div class="dest-grid">
+        <a class="dest reveal" href="destinations.html">
+          <div class="scene" style="--scene:linear-gradient(160deg,#1c2b5e,#5a3a8a 50%,#ff9e7a)"><svg class="ridge front" viewBox="0 0 400 200" preserveAspectRatio="none" fill="#120920" aria-hidden="true"><path d="M0 200V170L100 150 220 175 340 152 400 168V200Z"/></svg></div>
+          <div class="veil-strong"></div>
+          <div class="dest-body"><div class="count">12 guides</div><h3>Europe</h3></div>
+        </a>
+        <a class="dest reveal" data-d="1" href="destinations.html">
+          <div class="scene" style="--scene:linear-gradient(160deg,#3d1f4d,#c0436b 50%,#ffb347)"><svg class="ridge front" viewBox="0 0 400 200" preserveAspectRatio="none" fill="#120920" aria-hidden="true"><path d="M0 200V165L90 145 200 172 320 148 400 165V200Z"/></svg></div>
+          <div class="veil-strong"></div>
+          <div class="dest-body"><div class="count">8 guides</div><h3>Asia</h3></div>
+        </a>
+        <a class="dest reveal" data-d="2" href="destinations.html">
+          <div class="scene" style="--scene:linear-gradient(160deg,#102a4c,#3a6ea5 45%,#ffd089)"><svg class="ridge front" viewBox="0 0 400 200" preserveAspectRatio="none" fill="#120920" aria-hidden="true"><path d="M0 200V175L120 158 250 180 400 160V200Z"/></svg></div>
+          <div class="veil-strong"></div>
+          <div class="dest-body"><div class="count">10 guides</div><h3>Caribbean</h3></div>
+        </a>
+        <a class="dest reveal" data-d="3" href="destinations.html">
+          <div class="scene" style="--scene:linear-gradient(160deg,#4a1f3d,#e05a5a 55%,#ffce6b)"><svg class="ridge front" viewBox="0 0 400 200" preserveAspectRatio="none" fill="#120920" aria-hidden="true"><path d="M0 200V168L80 148 180 170 300 150 400 168V200Z"/></svg></div>
+          <div class="veil-strong"></div>
+          <div class="dest-body"><div class="count">10 guides</div><h3>USA</h3></div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- VALUES -->
+  <section class="section" style="padding-top:0">
+    <div class="wrap">
+      <div class="center">
+        <span class="eyebrow reveal">Why TripDusk</span>
+        <h2 class="h-lg reveal" data-d="1">Travel that follows the light</h2>
+        <p class="lead reveal" data-d="2" style="margin:14px auto 0">We plan trips around atmosphere, not just attractions — so every place you visit gives you its best moment.</p>
+      </div>
+      <div class="values">
+        <div class="value reveal">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><path d="M12 1v3M12 20v3M4.2 4.2l2.1 2.1M17.7 17.7l2.1 2.1M1 12h3M20 12h3"/></svg></div>
+          <h3>Golden-hour first</h3>
+          <p>Every itinerary is timed to catch each place at sunrise or dusk, when it looks its absolute best.</p>
+        </div>
+        <div class="value reveal" data-d="1">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg></div>
+          <h3>Photography tips</h3>
+          <p>Camera settings, vantage points and exact timings so you bring home the shot, not just the memory.</p>
+        </div>
+        <div class="value reveal" data-d="2">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 12-9 12s-9-5-9-12a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+          <h3>Honest, on-the-ground</h3>
+          <p>Real costs, real walking distances, real crowds. Every guide is written from places we've actually been.</p>
+        </div>
+        <div class="value reveal" data-d="3">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h4l3 8 4-16 3 8h4"/></svg></div>
+          <h3>Slow &amp; sustainable</h3>
+          <p>Fewer stops, deeper experiences. We favour overland routes, local stays and small businesses.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA / NEWSLETTER -->
+  <section class="section" style="padding-top:0">
+    <div class="wrap">
+      <div class="cta-band reveal">
+        <div class="bg"></div>
+        <h2 class="h-lg">Get one golden destination, every Friday</h2>
+        <p>Join 25,000 sunset chasers. One hand-picked place, one timed itinerary, and one photography tip — straight to your inbox. No noise.</p>
+        <form class="subscribe" data-demo>
+          <input type="email" placeholder="you@email.com" required aria-label="Email address" />
+          <button class="btn btn-light" type="submit">Subscribe</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

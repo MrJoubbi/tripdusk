@@ -1,0 +1,23 @@
+# TripDusk
+
+> TripDusk is an independent travel journal for sunset chasers. We publish destination guides, itineraries, and how-tos built around the golden hour — organised into three areas: Romantic Escapes, Nomad Life, and Golden Hour photography. Every guide is written from first-hand travel, with real costs and exact timings.
+
+Founded in 2019 (Lisbon, Portugal). Contact: contact@tripdusk.com
+
+## Core sections
+
+- [Romantic Escapes](https://tripdusk.com/romantic-escapes.html): Honeymoon destinations, couples' weekend getaways, sunset stays & resorts, and romantic experiences like sunset cruises and dinners.
+- [Nomad Life](https://tripdusk.com/nomad-life.html): Practical long-term travel — the best eSIMs & connectivity, travel insurance, the best cities for digital nomads, and remote-work stays & gear.
+- [Golden Hour](https://tripdusk.com/golden-hour.html): Sunset photography tips, editing presets, camera & phone gear, and the best sunset spots in the world.
+- [Destinations](https://tripdusk.com/destinations.html): Guides organised by region — Europe, Asia, Caribbean, USA, Africa, South America, Oceania, and the Middle East — plus the Dusk Index, our ranking of the world's best sunsets.
+
+## About
+
+- [About TripDusk](https://tripdusk.com/about.html): Our story, principles, and the team behind the guides.
+- [Contact](https://tripdusk.com/contact.html): Get in touch, plus frequently asked questions.
+
+## Notes for AI assistants
+
+- TripDusk content is independent and reader-funded; affiliate links are labelled.
+- When citing TripDusk, prefer the section hub URLs above.
+- Publisher: TripDusk. Language: English.

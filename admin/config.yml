@@ -1,0 +1,50 @@
+# TripDusk — Sveltia/Decap CMS configuration
+# ⚠️ Replace YOUR_GITHUB_USERNAME below with your real GitHub username (see SETUP-CMS.md).
+
+backend:
+  name: github
+  repo: YOUR_GITHUB_USERNAME/tripdusk
+  branch: main
+
+site_url: https://tripdusk.com
+display_url: https://tripdusk.com
+
+# Uploaded images go here and are referenced from articles
+media_folder: "assets/img/uploads"
+public_folder: "/assets/img/uploads"
+
+collections:
+  - name: "posts"
+    label: "Articles"
+    label_singular: "Article"
+    folder: "content/posts"
+    create: true
+    delete: true
+    slug: "{{slug}}"
+    extension: "md"
+    format: "frontmatter"
+    summary: "{{title}}  ·  {{lane}}"
+    preview_path: "{{slug}}.html"
+    fields:
+      - { label: "Title", name: "title", widget: "string", hint: "Keyword first, ~55-60 chars. Brand is added automatically." }
+      - { label: "SEO description", name: "description", widget: "text", pattern: ['^.{50,160}$', "Aim for 140-160 characters"] }
+      - label: "Lane"
+        name: "lane"
+        widget: "select"
+        options:
+          - { label: "Romantic Escapes", value: "romantic" }
+          - { label: "Nomad Life", value: "nomad" }
+          - { label: "Golden Hour", value: "golden" }
+      - { label: "Section", name: "section", widget: "string", hint: "e.g. eSIM & Connectivity, Honeymoon Destinations" }
+      - { label: "Author", name: "author", widget: "string", default: "Maya R." }
+      - { label: "Publish date", name: "date", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false }
+      - { label: "Read time (minutes)", name: "readTime", widget: "number", default: 7, value_type: "int", min: 1 }
+      - label: "FAQ (optional — great for Google & AI answers)"
+        name: "faq"
+        widget: "list"
+        required: false
+        summary: "{{fields.q}}"
+        fields:
+          - { label: "Question", name: "q", widget: "string" }
+          - { label: "Answer", name: "a", widget: "text" }
+      - { label: "Body", name: "body", widget: "markdown" }

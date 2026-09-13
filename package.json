@@ -1,0 +1,14 @@
+{
+  "name": "tripdusk",
+  "version": "1.0.0",
+  "private": true,
+  "description": "TripDusk — travel journal for sunset chasers",
+  "scripts": {
+    "build": "eleventy",
+    "start": "eleventy --serve --port=4178",
+    "dev": "eleventy --serve --port=4178"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0"
+  }
+}
